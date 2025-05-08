@@ -9,4 +9,4 @@ __Características__:
 - [x] página de inicio de sesión
 - [x] Protección de rutas
 - [x] página de registro
-- [ ] Leer usuarios y sesión de datos
+- [x] Leer usuarios y sesión de datos
