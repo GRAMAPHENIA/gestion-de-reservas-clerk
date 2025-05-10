@@ -34,7 +34,7 @@ export default function Tooltip({ children, text }: TooltipProps) {
       {children}
       {showTooltip && (
         <div
-          className={`fixed bg-zinc-800/50 text-gray-200 px-4 py-2 border border-zinc-800 rounded-lg text-sm whitespace-nowrap shadow-sm z-50 ${showAnimation ? 'tooltip-slide-in' : ''}`}
+          className={`fixed bg-zinc-800/50 backdrop-blur-sm text-gray-200 px-4 py-2 border border-zinc-800 rounded-lg text-sm whitespace-nowrap shadow-sm z-50 ${showAnimation ? 'tooltip-slide-in' : ''}`}
           style={{
             left: tooltipPosition.x - 80,
             top: tooltipPosition.y,
