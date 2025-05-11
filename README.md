@@ -14,4 +14,4 @@ __Características__:
 ## Integración de Supabase con Clerk
 
 - [x] Configurar Clerk como proveedor de autenticación de terceros en Supabase
-- [ ] Configurar políticas RLS utilizando datos de token de sesión de Clerk
+- [x] Configurar políticas RLS utilizando datos de token de sesión de Clerk
