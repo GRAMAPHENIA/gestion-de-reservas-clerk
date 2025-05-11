@@ -1,6 +1,7 @@
 "use client";
 
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
+import UserButton from "./UserButtonCustom";
 import Image from "next/image";
 import Tooltip from "./Tooltip";
 import Sidebar from "./Sidebar";

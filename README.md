@@ -10,3 +10,8 @@ __Características__:
 - [x] Protección de rutas
 - [x] página de registro
 - [x] Leer usuarios y sesión de datos
+
+## Integración de Supabase con Clerk
+
+- [x] Configurar Clerk como proveedor de autenticación de terceros en Supabase
+- [ ] Configurar políticas RLS utilizando datos de token de sesión de Clerk
