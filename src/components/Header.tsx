@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 h-16 border-b border-white/10">
+    <header className="flex bg-zinc-900/50 justify-between items-center p-4 h-16 border-b border-white/10">
       {/* Lado izquierdo: menú */}
       <Sidebar />
 

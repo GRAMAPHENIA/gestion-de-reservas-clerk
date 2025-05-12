@@ -11,7 +11,7 @@ export default function Sidebar() {
       {/* Botón de menú en el header */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-lg hover:bg-zinc-500/20 transition-colors border border-zinc-800 cursor-pointer"
+        className="p-2 rounded-lg hover:bg-zinc-800/20 transition-colors border border-zinc-800 cursor-pointer"
       >
         <Image src="/icons/menu.svg" alt="Menú" width={16} height={16} className="fill-zinc-200" />
       </button> 
