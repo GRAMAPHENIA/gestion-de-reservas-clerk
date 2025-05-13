@@ -89,7 +89,7 @@ export default function Tasks({ user }: TasksProps) {
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-zinc-900/50 backdrop-blur-sm border-t border-zinc-800">
+      <div className="fixed bottom-5 left-0 right-0">
         <div className="max-w-2xl mx-auto px-8 py-4">
           <form onSubmit={createTask} className="flex gap-2">
             <input
