@@ -74,7 +74,7 @@ export default function OrganizationManager() {
         <h2 className="text-2xl font-semibold text-white">Organizaciones</h2>
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-zinc-800 rounded-full p-3 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 transition-colors border border-zinc-700 cursor-pointer absolut left-0 bottom-0 "
+          className="fixed bottom-6 right-6 bg-zinc-800 rounded-full p-2 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 transition-colors border border-zinc-700 cursor-pointer shadow-lg z-50"
         >
           <Image 
             src="/icons/plus.svg" 

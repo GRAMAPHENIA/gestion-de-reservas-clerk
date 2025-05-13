@@ -101,12 +101,7 @@ export default function Tasks({ user }: TasksProps) {
               value={name}
               className="flex-1 px-4 py-2 rounded-xl border border-zinc-700 bg-zinc-800 text-zinc-200 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2"
             />
-            <button
-              type="submit"
-              className="w-12 h-12 bg-zinc-800 rounded-xl flex items-center justify-center hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-none focus:ring-offset-2 transition-colors border border-zinc-700 cursor-pointer"
-            >
-              <Image src="/icons/plus.svg" alt="Agregar" width={20} height={20} className="fill-white" />
-            </button>
+            
           </form>
         </div>
       </div>
